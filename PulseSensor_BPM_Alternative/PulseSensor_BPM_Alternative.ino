@@ -129,8 +129,6 @@ void setup() {
 }
 
 void loop() {
-
-  int myBPM = pulseSensor.getBeatsPerMinute();
   /*
      See if a sample is ready from the PulseSensor.
 
@@ -159,7 +157,7 @@ void loop() {
       */
       if (pulseSensor.sawStartOfBeat()) {
         pulseSensor.outputBeat();
-        Serial.println(myBPM);
+        
       }
     }
 
