@@ -433,7 +433,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 279.0, 35.0, 20.0, 20.0 ]
+					"patching_rect" : [ 240.5, 35.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -696,9 +696,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "100-samp test",
-				"bootpath" : "~/Desktop/Pulse",
-				"patcherrelativepath" : ".",
+				"name" : "dsiah-trial-000.txt",
+				"bootpath" : "~/Desktop/Pulse/data",
+				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
